@@ -1,0 +1,22 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    background: var(--second-color);
+    color: var(--second-text-color);
+}
+
+:root {
+    --main-color: #222831;
+    --second-color: #393E46;
+    --main-text-color: #00ADB5;
+    --second-text-color: #EEEEEE;
+}
+
+ul {
+    list-style: none;
+}

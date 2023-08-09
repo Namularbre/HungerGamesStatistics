@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Menu</title>
+    <link href="/css/global.css" rel="stylesheet" type="text/css">
+    <link href="/css/style.css" rel="stylesheet" type="text/css">
+    <link href="/css/table.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div class="title-background">
+        <h1>Welcome fighter !</h1>
+    </div>
+    <h2>Here is the list of all the registered tributes :</h2>
+    <ul id="tributes">
+        <!--Here goes the display of the tributes-->
+    </ul>
+    <div class="tribute-data">
+        <table>
+            <caption>Tribute's statistics</caption>
+            <thead>
+            <tr>
+                <th>Name</th>
+                <th>Wins</th>
+                <th>Kills</th>
+                <th>Deaths</th>
+            </tr>
+            </thead>
+            <tbody>
+                <!--Here goes tributes statistics-->
+            </tbody>
+        </table>
+    </div>
+    <template id="tribute-template">
+        <tr>
+            <td class="tribute-name">
+                <!--Name of the tribute-->
+            </td>
+            <td class="tribute-wins">
+                <!--Wins of the tribute-->
+            </td>
+            <td class="tribute-kills">
+                <!--Kills of the tribute-->
+            </td>
+            <td class="tribute-deaths">
+                <!--Deaths of the tribute-->
+            </td>
+        </tr>
+    </template>
+    <script src="/js/index.js" type="text/javascript" nonce="nonce"></script>
+</body>
+</html>
